@@ -1,7 +1,5 @@
 # retail360 — Retail Performance Analytics
 
----
-
 ## Executive Summary
 This project started as a raw retail dataset with no structure, no clarity, and no immediate business value. I built a complete analytics pipeline around it — staging the data, cleaning it, exploring it, and engineering new features — before turning everything into a set of Tableau dashboards that explain how the business performs across products, customers, and transactions. The goal wasn’t just to visualise data, but to understand the story behind it and present it in a way that a business could act on.
 
@@ -30,8 +28,6 @@ Before transforming anything, I explored the dataset to understand what mattered
 ### 4. Data Transformation
 I created the fields that Tableau would rely on — things like repeat‑customer flags, purchase frequency, seasonal categories, profitability indicators, and return‑rate logic. These features turned the dataset from “raw information” into something that could answer real business questions.
 
----
-
 ## Results & Business Recommendations
 Once the dashboards were built, several patterns became clear:
 
@@ -49,8 +45,6 @@ Based on these findings, I would recommend:
 - Aligning inventory and marketing with seasonal demand
 - Focusing on improving profitability in high‑volume, low‑margin regions
 
----
-
 ## Next Steps
 If I were to continue this project, I’d expand it in a few ways:
 
@@ -58,7 +52,5 @@ If I were to continue this project, I’d expand it in a few ways:
 - Automate the SQL pipeline so the dashboards refresh on schedule
 - Add cohort analysis to understand long‑term customer behaviour
 - Bring in marketing or operational data for deeper context
-- Explore forecasting models for demand and revenue 
-
----
+- Explore forecasting models for demand and revenue
 
